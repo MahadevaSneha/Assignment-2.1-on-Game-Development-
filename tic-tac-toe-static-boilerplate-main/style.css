@@ -1,0 +1,51 @@
+body {
+    background-color: dodgerblue;
+    font-family: 'Fredoka One', sans-serif;
+  }
+  
+  .game-heading {
+    color: #FAB201;
+    text-align: center;
+    font-size:50px;
+    text-shadow: 2px 2px 4px white;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    color:#FAB201;
+    border-radius:10px;
+  }
+
+  .winner-message {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 50px;
+    color:white;
+    margin-top:20%;
+  }
+
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color:#FAB201;
+    color:white;
+    font-weight: bolder;
+  }
