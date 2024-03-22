@@ -31,21 +31,4 @@ body {
     border-radius:10px;
   }
 
-  .winner-message {
-    text-align: center;
-    font-size: 1.5em;
-    margin-top: 50px;
-    color:white;
-    margin-top:20%;
-  }
-
-  button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    cursor: pointer;
-    background-color:#FAB201;
-    color:white;
-    font-weight: bolder;
-  }
+ 
